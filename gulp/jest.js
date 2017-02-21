@@ -1,8 +1,7 @@
-import childProcess from 'child_process';
+import spawn from 'cross-spawn';
 import gulp from 'gulp';
 
 gulp.task('jest', (done) => {
-  childProcess
-    .spawn('npm', ['run', 'jest'], { stdio: 'inherit' })
-    .on('close', done);
+  spawn('npm', ['run', 'jest'], { stdio: 'inherit' })
+  .on('close', done);
 });
