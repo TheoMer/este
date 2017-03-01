@@ -39,6 +39,7 @@
 
 - [redux](http://reactjs.github.io/redux/)
 - [redux-observable](https://github.com/redux-observable/redux-observable)
+- [found](https://github.com/4Catalyzer/found)
 - [ramda](http://ramdajs.com/)
 - [react-intl](https://github.com/yahoo/react-intl)
 - [redux-persist](https://github.com/rt2zz/redux-persist)
@@ -68,9 +69,9 @@ If you are using different node versions on your machine, use [nvm](https://gith
 
 ```shell
 git clone
-cd este-app
+cd este
 yarn (or npm install)
-``` 
+```
 
 ## Start Development
 
@@ -102,8 +103,9 @@ React Native: [Getting Started](https://facebook.github.io/react-native/docs/get
 - `npm test` run all checks and tests
 - `node src/server` start app, remember to set NODE_ENV
 - `gulp to-html` render app to HTML for static hosting like [Firebase](https://www.firebase.com/features.html#features-hosting)
-- `gulp deploy-heroku` deploy [Heroku](https://www.heroku.com/) app
-- `gulp deploy-firebase` deploy [Firebase](https://firebase.google.com/) app
+- `gulp deploy-now` deploy to [Now](https://zeit.co/now/)
+- `gulp deploy-heroku` deploy to [Heroku](https://www.heroku.com/)
+- `gulp deploy-firebase` deploy to [Firebase](https://firebase.google.com/)
 - `gulp deploy-firebase-database` deploy Firebase database only
 
 ## Customize Este App
