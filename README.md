@@ -15,8 +15,6 @@
 
 > Pokud máte zájem o školení JavaScript, React.js, nebo Este.js, podívejte se na [javascript-skoleni.cz](https://javascript-skoleni.cz/).
 
-> **Contact me, if you are looking for a technical cofounder.**
-
 ## Techniques
 
 - universal architecture with immutable app state
@@ -96,6 +94,7 @@ React Native: [Getting Started](https://facebook.github.io/react-native/docs/get
 - `gulp messages-check` check missing and unused translations
 - `gulp messages-clear` remove unused translations
 - `gulp favicon` create universal favicon
+- `gulp prettier` prettify source code
 
 ## Production Tasks
 
