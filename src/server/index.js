@@ -4,6 +4,10 @@
 require('babel-register');
 require('babel-polyfill');
 
+const env = require('node-env-file');
+
+env('.env');
+
 const IsoTools = require('webpack-isomorphic-tools');
 const assets = require('../../webpack/assets').default;
 const config = require('./config').default;

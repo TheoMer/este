@@ -37,8 +37,6 @@ const configureStore = (options: Options) => {
     compose(
       applyMiddleware(...middleware),
       autoRehydrate(),
-      // This line enbles the Redux devIools chrome extension to see the store
-      (typeof window !== 'undefined' && window.devToolsExtension) ? window.devToolsExtension() : f => f,
       ...platformStoreEnhancers,
     ),
   );

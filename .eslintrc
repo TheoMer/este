@@ -29,6 +29,7 @@
     "no-param-reassign": 0, // We love param reassignment. Naming is hard.
     "no-shadow": 0, // Shadowing is a nice language feature. Naming is hard.
     "indent": 0, // Prettier ftw.
+    "linebreak-style": 0,
     // React.
     "react/forbid-prop-types": 0, // Este is going to use Flow types.
     "react/jsx-filename-extension": 0, // No, JSX belongs to .js files.
@@ -44,8 +45,7 @@
     // Flow.
     "flowtype/space-after-type-colon": 0, // Prettier ftw.
     // Rules for functional programming. We do not need Object.freeze.
-    "fp/no-mutating-assign": 2,
-    "linebreak-style": 0,
+    "fp/no-mutating-assign": 2
     // Can not be enabled yet, it requires a lot of refactoring.
     // "fp/no-mutating-methods": 2,
     // "fp/no-mutation": ["error", {
